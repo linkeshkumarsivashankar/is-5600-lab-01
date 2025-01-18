@@ -3,13 +3,12 @@ body {
    font-family: Arial, sans-serif;
  }
  
- /* Full-page background with florence.jpg */
  header {
-   background-image: url('./images/florence.jpg'); /* Replace with the correct path to florence.jpg */
+   background-image: url('./images/florence.jpg'); 
    background-size: cover;
    background-position: center;
    width: 100%;
-   min-height: 100vh; /* Full viewport height */
+   min-height: 100vh; 
    color: white;
    display: flex;
    flex-direction: column;
@@ -19,9 +18,8 @@ body {
    box-sizing: border-box;
  }
  
- /* Styling for the navigation */
  nav {
-   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+   background-color: rgba(0, 0, 0, 0.5); 
    padding: 20px;
    width: 100%;
    box-sizing: border-box;
@@ -58,10 +56,9 @@ body {
  }
  
  nav a:hover {
-   color: #ffd700; /* Gold color on hover */
+   color: #ffd700; 
  }
  
- /* Hero text */
  header div {
    max-width: 600px;
    text-align: left;
@@ -78,7 +75,7 @@ body {
  }
  
  header div a {
-   background-color: #6f00ff; /* Gold button */
+   background-color: #6f00ff; 
    color: black;
    padding: 10px 20px;
    text-decoration: none;
@@ -90,19 +87,18 @@ body {
    background-color: #f1c40f;
  }
  
- /* Styling for cards section */
  main {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    align-items: flex-start;
    padding: 20px 50px;
-   background-color: #f4f4f4; /* Light gray background for cards */
+   background-color: #f4f4f4; 
    box-sizing: border-box;
  }
  
  .card {
-   width: 30%; /* Adjust the width to fit three cards horizontally */
+   width: 30%; 
    background-color: white;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
    border-radius: 5px;
@@ -146,9 +142,9 @@ body {
  }
  
  .social .heart {
-   background-image: url('./images/heart.png'); /* Replace with heart icon path */
+   background-image: url('./images/heart.png'); 
  }
  
  .social .comment {
-   background-image: url('./images/comment.png'); /* Replace with comment icon path */
+   background-image: url('./images/comment.png'); 
  }
